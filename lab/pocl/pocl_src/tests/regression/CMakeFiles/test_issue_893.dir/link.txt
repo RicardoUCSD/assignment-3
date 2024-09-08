@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_issue_893.dir/test_issue_893.cpp.o -o test_issue_893  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

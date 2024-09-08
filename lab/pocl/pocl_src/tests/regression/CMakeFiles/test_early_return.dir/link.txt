@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_early_return.dir/test_early_return.cpp.o -o test_early_return  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

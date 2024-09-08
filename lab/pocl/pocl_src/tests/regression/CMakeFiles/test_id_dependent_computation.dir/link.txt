@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_id_dependent_computation.dir/test_id_dependent_computation.cpp.o -o test_id_dependent_computation  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

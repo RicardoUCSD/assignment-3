@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_autolocals_in_constexprs.dir/test_autolocals_in_constexprs.cpp.o -o test_autolocals_in_constexprs  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

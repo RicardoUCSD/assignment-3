@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_fors_with_var_iteration_counts.dir/test_fors_with_var_iteration_counts.cpp.o -o test_fors_with_var_iteration_counts  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

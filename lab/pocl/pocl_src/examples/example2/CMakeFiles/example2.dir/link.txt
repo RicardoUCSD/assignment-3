@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/example2.dir/example2.c.o -o example2  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

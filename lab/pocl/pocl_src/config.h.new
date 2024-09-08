@@ -1,0 +1,288 @@
+
+#ifndef POCL_CONFIG_H
+#define POCL_CONFIG_H
+
+
+/* #undef BUILD_HSA */
+/* #undef BUILD_CUDA */
+#define BUILD_BASIC
+/* #undef BUILD_TBB */
+#define BUILD_PTHREAD
+/* #undef BUILD_ALMAIF */
+/* #undef BUILD_VULKAN */
+/* #undef BUILD_LEVEL0 */
+/* #undef BUILD_REMOTE_SERVER */
+/* #undef BUILD_REMOTE_CLIENT */
+/* #undef BUILD_PROXY */
+
+#define BUILDDIR "/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src"
+
+/* "Build with ICD" */
+#define BUILD_ICD
+
+#define CMAKE_BUILD_TYPE "Debug"
+
+/* #undef DEVELOPER_MODE */
+
+/* #undef HAVE_CLSPV */
+#define CLSPV ""
+#define CLSPV_REFLECTION ""
+
+/* #undef ENABLE_ASAN */
+/* #undef ENABLE_LSAN */
+/* #undef ENABLE_TSAN */
+/* #undef ENABLE_UBSAN */
+
+/* #undef ENABLE_EXTRA_VALIDITY_CHECKS */
+
+/* #undef ENABLE_CONFORMANCE */
+
+/* #undef ENABLE_RDMA */
+
+/* #undef ENABLE_TRAFFIC_MONITOR */
+
+/* #undef ENABLE_HWLOC */
+
+#define ENABLE_HOST_CPU_DEVICES
+
+#define ENABLE_POCL_BUILDING
+
+/* #undef ENABLE_POCL_FLOAT_CONVERSION */
+
+#define ENABLE_PRINTF_IMMEDIATE_FLUSH
+
+/* #undef ENABLE_VSOCK */
+
+#define ENABLE_RELOCATION
+
+/* #undef ENABLE_EGL_INTEROP */
+/* #undef ENABLE_OPENGL_INTEROP */
+
+#ifdef ENABLE_OPENGL_INTEROP
+/* #undef ENABLE_CL_GET_GL_CONTEXT */
+#endif
+
+#define ENABLE_SLEEF
+
+/* #undef ENABLE_SPIRV */
+
+/* #undef ENABLE_VALGRIND */
+
+#define HAVE_DLFCN_H
+
+#define HAVE_FORK
+
+#define HAVE_VFORK
+
+#define HAVE_CLOCK_GETTIME
+
+#define HAVE_FDATASYNC
+
+#define HAVE_FSYNC
+
+#define HAVE_GETRLIMIT
+
+#define HAVE_MKOSTEMPS
+
+#define HAVE_MKSTEMPS
+
+#define HAVE_MKDTEMP
+
+#define HAVE_FUTIMENS
+
+/* #undef HAVE_LTTNG_UST */
+
+#define HAVE_OCL_ICD
+#define HAVE_OCL_ICD_30_COMPATIBLE
+
+#define HAVE_POSIX_MEMALIGN
+
+#define HAVE_SLEEP
+
+#define HAVE_UTIME
+
+/* #undef HAVE_XRT */
+
+#define ENABLE_LLVM
+
+#define ENABLE_LOADABLE_DRIVERS
+
+/* this is used all over the runtime code */
+#define HOST_CPU_CACHELINE_SIZE 64
+
+#if defined(BUILD_CUDA)
+
+#define CUDA_DEVICE_EXTENSIONS ""
+
+#define CUDA_DEVICE_FEATURES_30 ""
+
+#endif
+
+#if defined(ENABLE_HOST_CPU_DEVICES)
+
+/* #undef ENABLE_HOST_CPU_DEVICES_OPENMP */
+
+#define HOST_AS_FLAGS  " "
+
+#define HOST_CLANG_FLAGS  "--target=aarch64-unknown-linux-android24 -D_HAS_FLOAT16_TYPE "
+
+#define HOST_DEVICE_EXTENSIONS "cl_khr_byte_addressable_store cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_3d_image_writes cl_khr_command_buffer cl_khr_command_buffer_multi_device cl_khr_subgroups cl_intel_unified_shared_memory cl_ext_buffer_device_address       cl_pocl_svm_rect cl_pocl_command_buffer_svm       cl_pocl_command_buffer_host_buffer cl_khr_subgroup_ballot cl_khr_subgroup_shuffle cl_intel_subgroups cl_intel_subgroups_short cl_intel_subgroups_char cl_ext_float_atomics cl_intel_required_subgroup_size cl_khr_fp16 cl_khr_fp64 cl_khr_int64_base_atomics cl_khr_int64_extended_atomics"
+
+#define HOST_DEVICE_FEATURES_30 "__opencl_c_3d_image_writes  __opencl_c_images __opencl_c_atomic_order_acq_rel __opencl_c_atomic_order_seq_cst __opencl_c_atomic_scope_device __opencl_c_program_scope_global_variables __opencl_c_atomic_scope_all_devices __opencl_c_generic_address_space __opencl_c_work_group_collective_functions __opencl_c_read_write_images __opencl_c_subgroups __opencl_c_fp16 __opencl_c_fp64 __opencl_c_ext_fp32_global_atomic_add __opencl_c_ext_fp32_local_atomic_add __opencl_c_ext_fp32_global_atomic_min_max __opencl_c_ext_fp32_local_atomic_min_max __opencl_c_ext_fp64_global_atomic_add __opencl_c_ext_fp64_local_atomic_add __opencl_c_ext_fp64_global_atomic_min_max __opencl_c_ext_fp64_local_atomic_min_max __opencl_c_int64"
+
+/* #undef HOST_CPU_FORCED */
+
+#define HOST_LD_FLAGS  "-L/system/lib/ -shared -ldl -lc /system/lib/crtbegin_so.o /system/lib/crtend_so.o "
+
+#define HOST_LLC_FLAGS  "-relocation-model=pic -mtriple=aarch64-unknown-linux-android24 "
+
+#define HOST_DEVICE_LATEST_CTS_PASS "v2022-04-19-01"
+
+#define HOST_CPU_TARGET_ABI ""
+
+#endif
+
+#define HOST_DEVICE_BUILD_HASH "aarch64-unknown-linux-android24"
+
+#define DEFAULT_DEVICE_EXTENSIONS ""
+
+#ifdef BUILD_HSA
+
+/* #undef HAVE_HSA_EXT_AMD_H */
+
+#define AMD_HSA 
+
+#define HSA_DEVICE_EXTENSIONS ""
+
+#define HSAIL_ASM ""
+
+#define HSAIL_ENABLED 
+
+#endif
+
+
+#define CMAKE_BUILD_TYPE "Debug"
+
+#define LINK_COMMAND "/data/data/com.termux/files/usr/bin/ld"
+
+
+
+
+#ifdef BUILD_LEVEL0
+
+#define CLANG "/data/data/com.termux/files/usr/bin/clang"
+
+#define LLVM_SPIRV "LLVM_SPIRV-NOTFOUND"
+
+/* #undef ENABLE_LEVEL0_EXTRA_FEATURES */
+
+/* #undef HAVE_LLVM_SPIRV_LIB */
+
+#endif
+
+
+
+#ifdef ENABLE_LLVM
+
+#define KERNELLIB_HOST_CPU_VARIANTS "native"
+
+/* #undef KERNELLIB_HOST_DISTRO_VARIANTS */
+
+#define CLANG "/data/data/com.termux/files/usr/bin/clang"
+
+#define CLANG_RESOURCE_DIR "/data/data/com.termux/files/usr/lib/clang/18"
+
+#define CLANGXX "/data/data/com.termux/files/usr/bin/clang++"
+
+#define LLVM_LLC "/data/data/com.termux/files/usr/bin/llc"
+
+#define LLVM_SPIRV "LLVM_SPIRV-NOTFOUND"
+
+#define LLVM_OPT "/data/data/com.termux/files/usr/bin/opt"
+
+#define LLVM_LINK "/data/data/com.termux/files/usr/bin/llvm-link"
+
+#define LLVM_MAJOR 18
+
+/* #undef LLVM_BUILD_MODE_DEBUG */
+
+#ifndef LLVM_VERSION
+#define LLVM_VERSION "18.1.8"
+#endif
+
+#define LLVM_VERIFY_MODULE_DEFAULT 1
+
+#endif
+
+
+
+/* Defined to greatest expected alignment for extended types, in bytes. */
+#define MAX_EXTENDED_ALIGNMENT 128
+
+#define PRINTF_BUFFER_SIZE 16384
+
+/* used in lib/CL/devices/basic */
+#define OCL_KERNEL_TARGET  "aarch64-unknown-linux-android24"
+#define OCL_KERNEL_TARGET_CPU  "cortex-x1"
+
+#define POCL_KERNEL_CACHE_DEFAULT 1
+
+#define HOST_DEVICE_ADDRESS_BITS 64
+
+#define POCL_DEBUG_MESSAGES
+
+#define POCL_INSTALL_PRIVATE_HEADER_DIR "/data/data/com.termux/files/home/.pocl/share/pocl/include"
+
+#define POCL_INSTALL_PRIVATE_DATADIR "/data/data/com.termux/files/home/.pocl/share/pocl"
+
+#define POCL_INSTALL_PRIVATE_DATADIR_REL "../share/pocl"
+
+#define POCL_INSTALL_PRIVATE_LIBDIR "/data/data/com.termux/files/home/.pocl/lib/pocl"
+
+#define POCL_INSTALL_LIBDIR "/data/data/com.termux/files/home/.pocl/lib"
+
+#define POCL_INSTALL_PRIVATE_LIBDIR_REL "pocl"
+
+#define POCL_ASSERTS_BUILD
+
+/* these are *host* values */
+
+/* used in tce_common.c & pocl_llvm_api.cc  */
+#define SRCDIR  "/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src"
+
+/* #undef TCEMC_AVAILABLE */
+
+/* #undef TCE_AVAILABLE */
+
+#define TCE_DEVICE_EXTENSIONS ""
+
+#define OACC_EXECUTABLE "TCECC-NOTFOUND"
+
+/* Defined on big endian systems */
+#define WORDS_BIGENDIAN 0
+
+/* platform version */
+#define POCL_PLATFORM_VERSION_MAJOR 3
+#define POCL_PLATFORM_VERSION_MINOR 0
+#define POCL_PLATFORM_VERSION_PATCH 0
+
+#define HSA_DEVICE_CL_VERSION_MAJOR 1
+#define HSA_DEVICE_CL_VERSION_MINOR 2
+
+#define CUDA_DEVICE_CL_VERSION_MAJOR 
+#define CUDA_DEVICE_CL_VERSION_MINOR 
+
+#define HOST_DEVICE_CL_VERSION_MAJOR 3
+#define HOST_DEVICE_CL_VERSION_MINOR 0
+
+#define TCE_DEVICE_CL_VERSION_MAJOR 1
+#define TCE_DEVICE_CL_VERSION_MINOR 2
+
+
+/* #undef USE_POCL_MEMMANAGER */
+
+#define LLVM_OPAQUE_POINTERS
+
+/* #undef RENAME_POCL */
+
+#endif

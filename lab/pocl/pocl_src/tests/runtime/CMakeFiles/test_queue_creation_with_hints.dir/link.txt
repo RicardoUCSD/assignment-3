@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/test_queue_creation_with_hints.dir/test_queue_creation_with_hints.c.o -o test_queue_creation_with_hints  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

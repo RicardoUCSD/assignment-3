@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/measure_migration_overhead.dir/measure_migration_overhead.cc.o CMakeFiles/measure_migration_overhead.dir/common.cc.o -o measure_migration_overhead  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

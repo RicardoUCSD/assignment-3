@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/test_clGetSupportedImageFormats.dir/test_clGetSupportedImageFormats.c.o -o test_clGetSupportedImageFormats  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

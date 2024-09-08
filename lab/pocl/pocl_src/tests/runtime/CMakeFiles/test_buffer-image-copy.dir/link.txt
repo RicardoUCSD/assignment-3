@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie "CMakeFiles/test_buffer-image-copy.dir/test_buffer-image-copy.c.o" -o test_buffer-image-copy  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

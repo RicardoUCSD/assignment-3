@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_barrier_between_for_loops.dir/test_barrier_between_for_loops.cpp.o -o test_barrier_between_for_loops  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

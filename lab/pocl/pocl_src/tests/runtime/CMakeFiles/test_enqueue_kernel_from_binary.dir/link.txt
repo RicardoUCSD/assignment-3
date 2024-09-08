@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/test_enqueue_kernel_from_binary.dir/test_enqueue_kernel_from_binary.c.o -o test_enqueue_kernel_from_binary  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

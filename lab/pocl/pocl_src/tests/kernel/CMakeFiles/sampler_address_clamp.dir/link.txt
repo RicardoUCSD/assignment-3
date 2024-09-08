@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -std=c99  -g  -pie CMakeFiles/sampler_address_clamp.dir/sampler_address_clamp.c.o -o sampler_address_clamp  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

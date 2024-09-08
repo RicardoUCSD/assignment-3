@@ -1,0 +1,13 @@
+Test -NDEBUG flag: Change Dir: '/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_6e2a9/fast
+/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_6e2a9.dir/build.make CMakeFiles/cmTC_6e2a9.dir/build
+make[1]: Entering directory '/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e2a9.dir/llvmNDEBUG.cc.o
+/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG -fPIE    -I/data/data/com.termux/files/usr/include -std=c++17   -fno-exceptions -funwind-tables -fno-rtti -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -UNDEBUG -MD -MT CMakeFiles/cmTC_6e2a9.dir/llvmNDEBUG.cc.o -MF CMakeFiles/cmTC_6e2a9.dir/llvmNDEBUG.cc.o.d -o CMakeFiles/cmTC_6e2a9.dir/llvmNDEBUG.cc.o -c /data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src/CMakeFiles/llvmNDEBUG.cc
+Linking CXX executable cmTC_6e2a9
+/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e2a9.dir/link.txt --verbose=1
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -pie  CMakeFiles/cmTC_6e2a9.dir/llvmNDEBUG.cc.o -o cmTC_6e2a9  -lLLVM-18  -L/data/data/com.termux/files/usr/lib
+make[1]: Leaving directory '/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src/CMakeFiles/CMakeTmp'
+
+

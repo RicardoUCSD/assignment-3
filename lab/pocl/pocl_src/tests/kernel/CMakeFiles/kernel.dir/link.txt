@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -std=c99  -g  -pie CMakeFiles/kernel.dir/kernel.c.o -o kernel  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

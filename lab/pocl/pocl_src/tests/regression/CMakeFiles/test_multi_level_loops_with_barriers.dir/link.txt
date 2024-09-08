@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_multi_level_loops_with_barriers.dir/test_multi_level_loops_with_barriers.cpp.o -o test_multi_level_loops_with_barriers  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

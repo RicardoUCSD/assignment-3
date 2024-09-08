@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_workitem_func_outside_kernel.dir/test_workitem_func_outside_kernel.cpp.o -o test_workitem_func_outside_kernel  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

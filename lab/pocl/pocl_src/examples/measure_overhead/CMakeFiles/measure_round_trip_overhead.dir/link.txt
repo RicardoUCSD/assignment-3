@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/measure_round_trip_overhead.dir/measure_round_trip_overhead.cc.o CMakeFiles/measure_round_trip_overhead.dir/common.cc.o -o measure_round_trip_overhead  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

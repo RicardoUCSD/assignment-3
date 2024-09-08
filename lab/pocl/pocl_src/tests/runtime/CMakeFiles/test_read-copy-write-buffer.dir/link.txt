@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie "CMakeFiles/test_read-copy-write-buffer.dir/test_read-copy-write-buffer.c.o" -o test_read-copy-write-buffer  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

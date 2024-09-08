@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG -flto=thin -fuse-ld=gold CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a

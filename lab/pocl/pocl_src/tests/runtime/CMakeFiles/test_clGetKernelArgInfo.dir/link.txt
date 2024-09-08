@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/test_clGetKernelArgInfo.dir/test_clGetKernelArgInfo.c.o -o test_clGetKernelArgInfo  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

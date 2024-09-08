@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/test_simple_for_with_a_barrier.dir/test_simple_for_with_a_barrier.cpp.o -o test_simple_for_with_a_barrier  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

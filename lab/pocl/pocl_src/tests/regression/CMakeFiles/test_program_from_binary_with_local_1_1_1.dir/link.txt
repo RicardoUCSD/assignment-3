@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/test_program_from_binary_with_local_1_1_1.dir/test_program_from_binary_with_local_1_1_1.c.o -o test_program_from_binary_with_local_1_1_1  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

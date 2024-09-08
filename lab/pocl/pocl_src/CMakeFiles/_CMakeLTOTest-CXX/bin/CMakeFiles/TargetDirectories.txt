@@ -1,0 +1,4 @@
+/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/assignment-3/lab/pocl/pocl_src/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

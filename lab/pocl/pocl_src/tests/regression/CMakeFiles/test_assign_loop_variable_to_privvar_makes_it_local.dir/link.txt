@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/test_assign_loop_variable_to_privvar_makes_it_local.dir/test_assign_loop_variable_to_privvar_makes_it_local.c.o -o test_assign_loop_variable_to_privvar_makes_it_local  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/test_cl_pocl_content_size_migration.dir/test_cl_pocl_content_size_migration.c.o -o test_cl_pocl_content_size_migration  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

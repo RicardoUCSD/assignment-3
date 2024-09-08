@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/boxadd.dir/boxadd.c.o CMakeFiles/boxadd.dir/boxadd_exec.c.o -o boxadd  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

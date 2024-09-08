@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc -llog -g  -pie CMakeFiles/test_clEnqueueNativeKernel.dir/test_clEnqueueNativeKernel.c.o -o test_clEnqueueNativeKernel  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread

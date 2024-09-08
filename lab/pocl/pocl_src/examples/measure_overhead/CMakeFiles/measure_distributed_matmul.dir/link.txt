@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -g  -pie CMakeFiles/measure_distributed_matmul.dir/measure_distributed_matmul.cc.o CMakeFiles/measure_distributed_matmul.dir/common.cc.o -o measure_distributed_matmul  ../../poclu/libpoclu.a /data/data/com.termux/files/usr/lib/libOpenCL.so -lm -pthread -llog

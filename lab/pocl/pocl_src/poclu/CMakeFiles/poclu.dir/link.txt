@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libpoclu.a CMakeFiles/poclu.dir/bswap.c.o CMakeFiles/poclu.dir/misc.c.o CMakeFiles/poclu.dir/cl_half.c.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib libpoclu.a
